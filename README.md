@@ -15,10 +15,14 @@ composer require prestashop/module-lib-guzzle-adapter
 
 | Version | Status         | Packagist           -| Namespace    | Repo                | Docs                | PHP Version  |
 |---------|----------------|----------------------|--------------|---------------------|---------------------|--------------|
-| 0.x     | Latest         | `prestashop/module-lib-guzzle-adapter` | `Prestashop\ModuleLibGuzzleAdapter` | [v0.x][lib-1-repo] | N/A                 | >=7.2.5   |
+| <=0.5  | Stable         | `prestashop/module-lib-guzzle-adapter` | `Prestashop\ModuleLibGuzzleAdapter` | [v0.x][lib-1-repo] | N/A                 | >=7.2.5   |
+| >=0.6     | Latest         | `prestashop/module-lib-guzzle-adapter` | `Prestashop\ModuleLibGuzzleAdapter` | [v0.x][lib-php5-repo] | N/A                 | >=5.6.0   |
+| 1.x     | Latest         | `prestashop/module-lib-guzzle-adapter` | `Prestashop\ModuleLibGuzzleAdapter` | [v1.x][lib-1-repo] | N/A                 | >=7.2.5   |
 
 [lib-1-repo]: https://github.com/PrestaShopCorp/module-lib-guzzle-adapter/tree/main
+[lib-php5-repo]: https://github.com/PrestaShopCorp/module-lib-guzzle-adapter/tree/0.x
 
+## Usage
 ## Usage
 
 ```php
