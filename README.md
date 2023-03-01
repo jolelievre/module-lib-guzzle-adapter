@@ -23,7 +23,6 @@ composer require prestashop/module-lib-guzzle-adapter
 [lib-php5-repo]: https://github.com/PrestaShopCorp/module-lib-guzzle-adapter/tree/0.x
 
 ## Usage
-## Usage
 
 ```php
 # Getting a client (Psr\Http\Client\ClientInterface)
