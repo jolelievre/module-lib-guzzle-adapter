@@ -17,7 +17,7 @@ class ClientFactory
      */
     private $versionDetection;
 
-    public function __construct(VersionDetection $versionDetection = null)
+    public function __construct(?VersionDetection $versionDetection = null)
     {
         $this->versionDetection = $versionDetection ?: new VersionDetection();
     }

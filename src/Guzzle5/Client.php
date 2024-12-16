@@ -30,7 +30,7 @@ class Client implements ClientClientInterface
     /**
      * @param ClientInterface|null $client
      */
-    public function __construct(ClientInterface $client = null)
+    public function __construct(?ClientInterface $client = null)
     {
         $this->client = $client ?: new GuzzleClient();
     }
@@ -113,7 +113,7 @@ class Client implements ClientClientInterface
      * @param GuzzleExceptions\TransferException $exception
      * @param RequestInterface $request
      *
-     * @return Exception
+     * @return \Exception
      */
     private function handleException(GuzzleExceptions\TransferException $exception, RequestInterface $request)
     {
